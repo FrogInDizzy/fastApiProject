@@ -42,7 +42,3 @@ async def read_author_category_by_query(book_author: str, category: str):
     return books_to_return
 
 
-
-# @app.get("/hello/{name}")
-# async def say_hello(name: str):
-#     return {"message": f"Hello {name}"}
